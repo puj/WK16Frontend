@@ -1,0 +1,18 @@
+.room-container {
+  background-color: #2f2f2f;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.room-description {
+  color: #dfdfdf;
+  font-size: 26px;
+}
+
+.room-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
