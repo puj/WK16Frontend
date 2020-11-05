@@ -1,7 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const GAME_START_URL = "http://localhost:8080/start";
-const GAME_ACTION_URL = "http://localhost:8080/action";
+const HOST = "https://wk16-backend.herokuapp.com";
+// const HOST = "http://localhost:8080";
+const GAME_START_URL = `${HOST}/start`;
+const GAME_ACTION_URL = `${HOST}/action`;
 const USERNAME = "VanTaylor";
 
 export const gameReducer = createSlice({
